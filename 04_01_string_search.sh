@@ -8,7 +8,8 @@ if [ ! -f "$2" ]; then
 	exit 1
 fi
 
-grep -n "$1" "$2"
+grep -n "$1" "$2" | cut -d: -f1
+
 
 
 
