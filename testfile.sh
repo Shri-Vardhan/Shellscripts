@@ -1,3 +1,0 @@
-Apple
-Bannana
-Cherry
